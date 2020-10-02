@@ -9,95 +9,133 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    
+
     <title>bootstrap</title>
   </head>
   <body>
-    <div class="container "><div id="content">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-  
-              <button type="button" id="sidebarCollapse" class="btn btn-info">
-                  <i class="fas fa-align-left"></i>
-                  <span>Toggle Sidebar</span>
-              </button>
-          </div>
-      </nav>
-  </div>
-  
-    g
-      <div class="container">
+    <nav
+      class="navbar navbar-default .collapse.navbar-collapse position-absolute nav d-none d-md-block"
+    >
+      <a class="navbar-brand" href="https://becode.org/fr/">
+        <picture>
+          <source srcset="becode.png" type="image/svg+xml" />
+          <img
+            src=""
+            class="img-fluid img-thumbnail w-50 border border-white"
+            alt="logo"
+          /> </picture
+      ></a>
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          
+          <button
+            type="button" 
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >click here<br> & <br>find out more
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a
+                href="http://www.allocine.fr/video/player_gen_cmedia=19379663&cfilm=28540.html"
+                >BeCode <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="http://www.allocine.fr/video/player_gen_cmedia=19380117&cfilm=3198.html"
+                >Les coachs font du ski</a
+              >
+            </li>
+            <li class="dropdown">
+              <a
+                href="#"
+                class="dropdown-toggle"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Dropdown <span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left w-25">
+            <div class="form-group"></div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a
+                href="#"
+                class="dropdown-toggle"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Dropdown <span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li>
+                  <a
+                    href="https://electronicpancakes.bandcamp.com/album/low-kick"
+                    >Diogo fait du punk...</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+
+    <div class="container">
       <!-- start colonne -->
-      <div class="row">
+      <div class="row container-fluid">
         <!-- row -->
         <!-- 1block -->
-        <div class="col-sm-3 m-auto">
-          <div class="card text-secondary bg-transparent m-3 text-center .d-flex ">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 m-auto">
+          <div
+            class="card text-secondary bg-transparent m-3 text-center .d-flex"
+          >
             ​<picture>
-              <source srcset="greenLogo/png/009-lifesaver.png" type="image/svg+xml">
-              <img src="greenLogo/png/009-lifesaver.png" class="img-fluid img-thumbnail w-50  border border-white" alt="...">
+              <source
+                srcset="greenLogo/png/009-lifesaver.png"
+                type="image/svg+xml"
+              />
+              <img
+                src="greenLogo/png/009-lifesaver.png"
+                class="img-fluid img-thumbnail w-50 border border-white"
+                alt="..."
+              />
             </picture>
-   
-            <div class="card-body">
-              <h5 class="card-title">Lorem ipsum</h5>
 
-              <p class="card-text ">
-                Live 15 minutes of daily motivation, inspiration and education
-                with EMP & World business leaders!<br />Recommending.
-              </p>
-              <hr class="mx-5" />
-              <a href="#" class="btn btn-primary">Lorem ipsum</a>
-            </div>
-          </div>
-        </div>
-       <!-- 1block -->
-       <div class="col-sm-3 m-auto">
-        <div class="card text-secondary bg-white m-3 text-center .d-flex ">
-          ​<picture>
-            <source srcset="greenLogo/png/009-lifesaver.png" type="image/svg+xml">
-            <img src="greenLogo/png/009-lifesaver.png" class="img-fluid img-thumbnail w-50" alt="...">
-          </picture>
-          
-          <div class="card-body">
-            <h5 class="card-title">Lorem ipsum</h5>
-
-            <p class="card-text">
-              Live 15 minutes of daily motivation, inspiration and education
-              with EMP & World business leaders!<br />Recommending.
-            </p>
-            <hr class="mx-5" />
-            <a href="#" class="btn btn-primary">Lorem ipsum</a>
-          </div>
-        </div>
-      </div>
-       <!-- 1block -->
-       <div class="col-sm-3 m-auto">
-        <div class="card text-secondary bg-white m-3 text-center .d-flex ">
-          ​<picture>
-            <source srcset="greenLogo/png/009-lifesaver.png" type="image/svg+xml">
-            <img src="greenLogo/png/009-lifesaver.png" class="img-fluid img-thumbnail w-50" alt="...">
-          </picture>
-          
-          <div class="card-body">
-            <h5 class="card-title">Lorem ipsum</h5>
-
-            <p class="card-text">
-              Live 15 minutes of daily motivation, inspiration and education
-              with EMP & World business leaders!<br />Recommending.
-            </p>
-            <hr class="mx-5" />
-            <a href="#" class="btn btn-primary">Lorem ipsum</a>
-          </div>
-        </div>
-      </div>
-        <!-- 1block -->
-        <div class="col-sm-3 m-auto">
-          <div class="card text-secondary bg-white m-3 text-center .d-flex ">
-            ​<picture>
-              <source srcset="greenLogo/png/009-lifesaver.png" type="image/svg+xml">
-              <img src="greenLogo/png/009-lifesaver.png" class="img-fluid img-thumbnail w-50" alt="...">
-            </picture>
-            
             <div class="card-body">
               <h5 class="card-title">Lorem ipsum</h5>
 
@@ -110,92 +148,200 @@
             </div>
           </div>
         </div>
-<!-- end block  1st row-->
-<!-- start colonne -->
+        <!-- 1block -->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 m-auto">
+          <div class="card text-secondary bg-white m-3 text-center .d-flex">
+            ​<picture>
+              <source
+                srcset="greenLogo/png/009-lifesaver.png"
+                type="image/svg+xml"
+              />
+              <img
+                src="greenLogo/png/009-lifesaver.png"
+                class="img-fluid img-thumbnail w-50"
+                alt="..."
+              />
+            </picture>
 
-  <!-- 1block -->
-  <div class="col-sm-3 m-auto">
-    <div class="card text-secondary bg-white m-3 text-center .d-flex ">
-      ​<picture>
-        <source srcset="greenLogo/png/009-lifesaver.png" type="image/svg+xml">
-        <img src="greenLogo/png/009-lifesaver.png" class="img-fluid img-thumbnail w-50" alt="...">
-      </picture>
-      
-      <div class="card-body">
-        <h5 class="card-title">Lorem ipsum</h5>
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum</h5>
 
-        <p class="card-text">
-          Live 15 minutes of daily motivation, inspiration and education
-          with EMP & World business leaders!<br />Recommending.
-        </p>
-        <hr class="mx-5" />
-        <a href="#" class="btn btn-primary">Lorem ipsum</a>
+              <p class="card-text">
+                Live 15 minutes of daily motivation, inspiration and education
+                with EMP & World business leaders!<br />Recommending.
+              </p>
+              <hr class="mx-5" />
+              <a href="#" class="btn btn-primary">Lorem ipsum</a>
+            </div>
+          </div>
+        </div>
+        <!-- 1block -->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 m-auto">
+          <div class="card text-secondary bg-white m-3 text-center .d-flex">
+            ​<picture>
+              <source
+                srcset="greenLogo/png/009-lifesaver.png"
+                type="image/svg+xml"
+              />
+              <img
+                src="greenLogo/png/009-lifesaver.png"
+                class="img-fluid img-thumbnail w-50"
+                alt="..."
+              />
+            </picture>
+
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum</h5>
+
+              <p class="card-text">
+                Live 15 minutes of daily motivation, inspiration and education
+                with EMP & World business leaders!<br />Recommending.
+              </p>
+              <hr class="mx-5" />
+              <a href="#" class="btn btn-primary">Lorem ipsum</a>
+            </div>
+          </div>
+        </div>
+        <!-- 1block -->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 m-auto">
+          <div class="card text-secondary bg-white m-3 text-center .d-flex">
+            ​<picture>
+              <source
+                srcset="greenLogo/png/009-lifesaver.png"
+                type="image/svg+xml"
+              />
+              <img
+                src="greenLogo/png/009-lifesaver.png"
+                class="img-fluid img-thumbnail w-50"
+                alt="..."
+              />
+            </picture>
+
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum</h5>
+
+              <p class="card-text">
+                Live 15 minutes of daily motivation, inspiration and education
+                with EMP & World business leaders!<br />Recommending.
+              </p>
+              <hr class="mx-5" />
+              <a href="#" class="btn btn-primary">Lorem ipsum</a>
+            </div>
+          </div>
+        </div>
+        <!-- end block  1st row-->
+        <!-- start colonne -->
+
+        <!-- 1block -->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 m-auto">
+          <div class="card text-secondary bg-white m-3 text-center .d-flex">
+            ​<picture>
+              <source
+                srcset="greenLogo/png/009-lifesaver.png"
+                type="image/svg+xml"
+              />
+              <img
+                src="greenLogo/png/009-lifesaver.png"
+                class="img-fluid img-thumbnail w-50"
+                alt="..."
+              />
+            </picture>
+
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum</h5>
+
+              <p class="card-text">
+                Live 15 minutes of daily motivation, inspiration and education
+                with EMP & World business leaders!<br />Recommending.
+              </p>
+              <hr class="mx-5" />
+              <a href="#" class="btn btn-primary">Lorem ipsum</a>
+            </div>
+          </div>
+        </div>
+        <!-- 1block -->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 m-auto">
+          <div class="card text-secondary bg-white m-3 text-center .d-flex">
+            ​<picture>
+              <source
+                srcset="greenLogo/png/009-lifesaver.png"
+                type="image/svg+xml"
+              />
+              <img
+                src="greenLogo/png/009-lifesaver.png"
+                class="img-fluid img-thumbnail w-50"
+                alt="..."
+              />
+            </picture>
+
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum</h5>
+
+              <p class="card-text">
+                Live 15 minutes of daily motivation, inspiration and education
+                with EMP & World business leaders!<br />Recommending.
+              </p>
+              <hr class="mx-5" />
+              <a href="#" class="btn btn-primary">Lorem ipsum</a>
+            </div>
+          </div>
+        </div>
+        <!-- 1block -->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 m-auto">
+          <div class="card text-secondary bg-white m-3 text-center .d-flex">
+            ​<picture>
+              <source
+                srcset="greenLogo/png/009-lifesaver.png"
+                type="image/svg+xml"
+              />
+              <img
+                src="greenLogo/png/009-lifesaver.png"
+                class="img-fluid img-thumbnail w-50"
+                alt="..."
+              />
+            </picture>
+
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum</h5>
+
+              <p class="card-text">
+                Live 15 minutes of daily motivation, inspiration and education
+                with EMP & World business leaders!<br />Recommending.
+              </p>
+              <hr class="mx-5" />
+              <a href="#" class="btn btn-primary">Lorem ipsum</a>
+            </div>
+          </div>
+        </div>
+        <!-- 1block -->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 m-auto">
+          <div class="card text-secondary bg-white m-3 text-center .d-flex">
+            ​<picture>
+              <source
+                srcset="greenLogo/png/009-lifesaver.png"
+                type="image/svg+xml"
+              />
+              <img
+                src="greenLogo/png/009-lifesaver.png"
+                class="img-fluid img-thumbnail w-50"
+                alt="..."
+              />
+            </picture>
+
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum</h5>
+
+              <p class="card-text">
+                Live 15 minutes of daily motivation, inspiration and education
+                with EMP & World business leaders!<br />Recommending.
+              </p>
+              <hr class="mx-5" />
+              <a href="#" class="btn btn-primary">Lorem ipsum</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
- <!-- 1block -->
- <div class="col-sm-3 m-auto">
-  <div class="card text-secondary bg-white m-3 text-center .d-flex ">
-    ​<picture>
-      <source srcset="greenLogo/png/009-lifesaver.png" type="image/svg+xml">
-      <img src="greenLogo/png/009-lifesaver.png" class="img-fluid img-thumbnail w-50" alt="...">
-    </picture>
-    
-    <div class="card-body">
-      <h5 class="card-title">Lorem ipsum</h5>
-
-      <p class="card-text">
-        Live 15 minutes of daily motivation, inspiration and education
-        with EMP & World business leaders!<br />Recommending.
-      </p>
-      <hr class="mx-5" />
-      <a href="#" class="btn btn-primary">Lorem ipsum</a>
-    </div>
-  </div>
-</div>
- <!-- 1block -->
- <div class="col-sm-3 m-auto">
-  <div class="card text-secondary bg-white m-3 text-center .d-flex ">
-    ​<picture>
-      <source srcset="greenLogo/png/009-lifesaver.png" type="image/svg+xml">
-      <img src="greenLogo/png/009-lifesaver.png" class="img-fluid img-thumbnail w-50" alt="...">
-    </picture>
-    
-    <div class="card-body">
-      <h5 class="card-title">Lorem ipsum</h5>
-
-      <p class="card-text">
-        Live 15 minutes of daily motivation, inspiration and education
-        with EMP & World business leaders!<br />Recommending.
-      </p>
-      <hr class="mx-5" />
-      <a href="#" class="btn btn-primary">Lorem ipsum</a>
-    </div>
-  </div>
-</div>
-  <!-- 1block -->
-  <div class="col-sm-3 m-auto">
-    <div class="card text-secondary bg-white m-3 text-center .d-flex ">
-      ​<picture>
-        <source srcset="greenLogo/png/009-lifesaver.png" type="image/svg+xml">
-        <img src="greenLogo/png/009-lifesaver.png" class="img-fluid img-thumbnail w-50" alt="...">
-      </picture>
-      
-      <div class="card-body">
-        <h5 class="card-title">Lorem ipsum</h5>
-
-        <p class="card-text">
-          Live 15 minutes of daily motivation, inspiration and education
-          with EMP & World business leaders!<br />Recommending.
-        </p>
-        <hr class="mx-5" />
-        <a href="#" class="btn btn-primary">Lorem ipsum</a>
-      </div>
-    </div>
-  </div>
-    </div>
-  </div>
-  
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
